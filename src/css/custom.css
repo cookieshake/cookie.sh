@@ -15,7 +15,7 @@
   --ifm-color-primary-lighter: #07e562;
   --ifm-color-primary-lightest: #13f870;
   --ifm-background-color: hsla(0, 0%, 97%, 0.95);
-  --ifm-navbar-background-color: hsla(0, 0%, 95%, 0.90);
+  --ifm-navbar-background-color: hsla(0, 0%, 96%, 0.90);
   --ifm-font-family-base: 'NanumSquareNeo-Variable';
   --ifm-font-size-base: 125%;
 }
@@ -51,15 +51,10 @@ article {
   vertical-align: 40%;
   font-size: calc(var(--ifm-font-size-base) * 0.55);
   font-weight: 500;
-  color: #2ac1bc;
 }
 
 .footnotes {
   font-size: 85%;
-}
-
-.footnote-backref:hover {
-  color: #0aa19c;
 }
 
 .plugin-id-ko-blog .footnote-backref::before {
@@ -69,6 +64,22 @@ article {
 .table-of-contents {
   font-size: 75%;
   word-break: keep-all;
+}
+
+.table-of-contents__link:hover,
+  .table-of-contents__link:hover code,
+  .table-of-contents__link--active,
+  .table-of-contents__link--active code {
+    color: #a50034;
+    text-decoration: none;
+  }
+
+a.hash-link {
+  color: #a50034;
+}
+
+a.hash-link:hover {
+  color: #a50034;
 }
 
 .navbar__title::after {
