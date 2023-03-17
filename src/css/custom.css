@@ -1,0 +1,73 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@font-face {
+  font-family: 'NanumSquareNeo-Variable';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --ifm-color-primary: #06c755;
+  --ifm-color-primary-dark: #05b34d;
+  --ifm-color-primary-darker: #05a948;
+  --ifm-color-primary-darkest: #048b3c;
+  --ifm-color-primary-light: #07db5e;
+  --ifm-color-primary-lighter: #07e562;
+  --ifm-color-primary-lightest: #13f870;
+  --ifm-background-color: hsla(0, 0%, 97%, 0.95);
+  --ifm-navbar-background-color: hsla(0, 0%, 95%, 0.90);
+  --ifm-font-family-base: 'NanumSquareNeo-Variable';
+  --ifm-font-size-base: 125%;
+}
+
+sup {
+  scroll-margin-top: calc(var(--ifm-navbar-height) + 1rem);
+}
+
+.markdown img {
+  border-radius: 1rem;
+  margin: auto;
+  display: block;
+}
+
+.container a {
+  text-underline-position: under;
+}
+
+.markdown a {
+  color: #0064ff;
+  font-weight: 500;
+}
+
+.markdown a:hover {
+  color: #3397ff;
+}
+
+.footnote-backref {
+  vertical-align: 40%;
+  font-size: calc(var(--ifm-font-size-base) * 0.55);
+  font-weight: 500;
+  color: #2ac1bc;
+}
+
+.footnotes {
+  font-size: 85%;
+}
+
+.footnote-backref:hover {
+  color: #0aa19c;
+}
+
+.plugin-id-ko-blog .footnote-backref::before {
+  content: '돌아가기';
+}
+
+.table-of-contents {
+  font-size: 75%;
+  word-break: keep-all;
+}
+
+.navbar__title::after {
+  content: 'ake';
+  color: #2ac1bc;
+}
