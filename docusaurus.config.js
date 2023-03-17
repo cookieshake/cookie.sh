@@ -33,6 +33,15 @@ const config = {
   },
   plugins: [
     [
+      '@docusaurus/plugin-sitemap',
+      {
+        changefreq: 'weekly',
+        priority: 0.5,
+        ignorePatterns: ['/ko/blog/tags/**'],
+        filename: 'sitemap.xml',
+      },
+    ],
+    [
       'content-pages',
       {
         id: 'pages',
