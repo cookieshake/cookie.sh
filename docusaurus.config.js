@@ -112,7 +112,7 @@ const config = {
         ],
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: require('prism-react-renderer/themes/nightOwl'),
         darkTheme: darkCodeTheme,
       },
     }),
