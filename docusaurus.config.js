@@ -63,7 +63,9 @@ const config = {
       {
         id: 'ko-wiki',
         path: 'docs/ko/wiki',
-        routeBasePath: 'ko/wiki'
+        routeBasePath: 'ko/wiki',
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true
       }
     ],
     [

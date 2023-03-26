@@ -1,5 +1,10 @@
 ---
 title: "Hive Metastore가 잘못된 Iceberg metadata를 가리킬 경우"
+keywords: [s3, iceberg, seaweedfs, hive-metastore, spark, kyuubi]
+tags: [s3, iceberg, seaweedfs, hive-metastore, spark, kyuubi]
+last_update:
+    date: 2023-03-24
+    author: cookieshake
 ---
 
 ## 문제
