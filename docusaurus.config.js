@@ -107,6 +107,11 @@ const config = {
           {to: '/ko/wiki', label: 'Wiki', position: 'left'},
           {to: '/ko/til', label: 'TIL', position: 'left'},
           {
+            href: 'https://wiki.ingtra.net',
+            label: 'IngtraNet Wiki',
+            position: 'left'
+          },
+          {
             href: 'https://github.com/cookieshake',
             html: '<i class="bi bi-github" style="font-size: 1.5rem;"></i>',
             position: 'right'
